@@ -1,0 +1,759 @@
+.App {
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Home page */
+.Homecontainer1{
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 5vh; 
+  margin-left: 2vw;
+}
+.Homecontainer1left{
+  width: 48vw;
+  /* height: 30vh */
+}
+.latestcontainer{
+  width:89%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.imageright img{
+  width:32vw;
+  height: 34vh;
+  margin-left: 1vw;
+  margin-top: 1vw;
+  border-radius: 5px;
+}
+.Homecontainer1left img{
+  
+    width: 44vw;
+    height: 70vh;
+    margin-top: 1vw;
+    border-radius: 10px;
+    margin-left: 2.5vw;
+
+}
+.imageright{
+  display: flex;
+  flex-direction: column;
+}
+.Articleimages{
+  width: 25vw;
+  margin-top: 5vh;
+  /* margin:0; */
+}
+.Homecontainer2{
+  margin-left: 5vw;
+}
+.Homecontainer2 h3{
+  font-size: 2rem; 
+  width: 15vw;
+}
+
+
+/* ......................................../ */
+.Wrap{
+  box-sizing: border-box;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-left: 5vw;
+  margin-right: 5vw; */
+}
+.logo{
+  margin-top: 5vh;
+}
+.The{
+  font-size: 1.3rem;
+  margin-right: 5px;
+  /* transform: matrix(0, -1, 1, 0, 0, 0); */
+  display: inline-block; 
+  transform: rotate(270deg);
+}
+.siren{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.Navbar{
+  margin-top: 4vh ;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 10px grey;
+  /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); */
+  /* box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.5); */
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+a:hover {
+  /* color: blue; */
+  color: rgb(19, 100, 194);
+}
+.Home :visited{
+  color: rgb(189, 18, 18);
+}
+.bollywoodContainer{
+  display: flex;
+}
+.left{
+  width: 40vw;
+}
+.right{
+  margin-left: 5vw;
+  width: 40vw;
+}
+.cardImage{
+  margin-top: 7vh;
+}
+.cardContent{
+    margin-top: 8vw;
+    margin-left: 2vw;
+}
+.imagecontainer img{
+  width: 15vw;
+  /* min-height: 20vh; */
+  height: 30vh;
+  border-radius: 20px;
+  background-color: #282c34;
+}
+
+
+/* Footer design */
+/* footer {
+  margin-top: 5vh;
+  background-color: #49979b;
+  padding: 20px 0px;
+  width: 100%;
+  height: 20vh;
+} */
+
+.NavIcons {
+  margin-top: 5vh;
+  background-color: black;
+  padding: 20px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+}
+
+.NavIcons h2 {
+  font-size: 42px;
+  margin: 0px 5px;
+}
+
+.leftNav {
+  gap: 3vw;
+  display: flex;
+  flex-direction: row;
+  font-size: 32px;
+  color: aliceblue;
+}
+
+.icons h2 {
+  font-size: 35px;
+}
+
+.footer-content {
+  font-size: 26px;
+  color: aliceblue;
+}
+
+/* ............Footer Done........................ */
+
+.rightCardOne{
+  display: flex;
+  flex-direction: column;
+  
+}
+.rightCardOneImg{
+  width: 40vw;
+  height: 40vh;
+  margin-top: 10vh;
+}
+.rightCardOne img{
+  width: 40vw;
+  border-radius: 20px;
+}
+.right
+.rightflex{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: column; */
+}
+.rightCardTwo{
+  display: flex;
+}
+.rightcardTwoImg{
+  width: 10vw;
+  border-radius: 10px;
+  margin: 15px;
+}
+.rightContent{
+  margin-left: 8vw;
+  width: 25vw;
+}
+.contentcontainer{
+  display: flex;
+  justify-content: center;
+}
+.advertisement{
+  margin-top: 5vh;
+  width: 40vw;
+  height: 70vw;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid grey;
+}
+.advertisementtechnology{
+  width: 40vw;
+  height: 50vw;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid grey;
+  
+}
+
+.bollywoodContainer p{
+  font-size: 1.2rem;
+}
+.rightcardnumber{
+  font-size: 2rem;
+}
+.rightCardTwoNumber{
+  font-size: 2rem;
+  margin-left: 5vw;
+  font-weight: 700;
+  color: grey;
+}
+
+.Article{
+  width: 27vw;;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  
+}
+.text{
+  font-size: 1rem;
+}
+.Articleimages{
+  width: 20vw;
+  min-height: 35vh;
+  border-radius: 10px;
+}
+.Articletext{
+  margin-top: 5vh;
+  padding-right: 4vw;
+  /* box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.3); */
+}
+
+.Movietext{
+ 
+  margin-top: 10vh;
+  padding-right: 4vw;
+}
+.Homeadvertise{
+  width: 25vw;
+  height: 60vw;
+  background-color: #ddf0ec ;
+  margin-left: 2vw;
+}
+.latestarticleleft{
+  width: 50vw;
+}
+.latestimagedown{
+  width: 50vw;
+  border-radius: 10px;
+}
+.latestarticleright{
+  width: 30vw;
+}
+.Toppost{
+  width: 30vw;
+}
+.toppostArticle{
+  margin-top: 5vh;
+  width: 27vw;
+}
+.toparticle img{
+  width: 10vw;
+}
+.textt{
+  margin: 2vw;
+}
+.LatestStories{
+  display: flex;
+  flex-direction: column;
+}
+.LatestStories h3{
+  font-size: 2rem;
+  width: 25vw;
+}
+.StoriesDiv{
+  display: flex;
+  margin-top: 5vh;
+}
+.HomeLatest{
+  width: 80vw;
+  display: flex;
+}
+.storiesimagecontainer img{
+  min-width: 25vw;
+  min-height: 25vh;
+  max-height: 30vh;
+}
+.Latest{
+  margin-top: 5vh;
+  margin-left: 5vw;
+}
+.Latest h3{
+  font-size: 2rem;
+  width: 20vw;
+}
+.Articlelatest{
+  display: flex;
+  width: 50vw;
+  margin-top: 5vh;
+  background-color: rgb(232, 241, 245);
+  box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 2vh;
+}
+.latestimage{
+  width: 20vw;
+  min-height: 25vh;
+}
+.Gobackbutton{
+  margin: 2vw;
+  background-color: skyblue;
+  width: 10vw;
+  height: 5vw;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  border-color: transparent;
+}
+  .Gobackbutton:hover{
+    background-color: darkblue;
+  }  
+
+.dynamicontentheading{
+  margin: 5vh;
+  font-size: 2rem;
+}
+.dynamiccontentimage{
+  width: 50vw;
+  max-height: 70vh;
+  border-radius: 20px;
+  margin-bottom: 5vh;
+}
+.bollywoodContainer{
+  margin-top: 5vh;
+}
+.Movieimages{
+  width: 20vw;
+  height: 30vh;
+  border-radius: 10px;
+  /* width: 25vw; */
+  margin-top: 1.5vw;
+}
+.aboutfooter{
+  font-size: 1rem;
+  width: 20vw;
+}
+.Email{
+  font-size: 1rem;
+  color: white;
+}
+.mobileno{
+  color: white;
+  font-size: 1rem;
+}
+.icons p{
+  font-weight: 700;
+}
+.hollyadvertise{
+  margin-top: 10vh;
+  height: 50vw;
+}
+.rightCardTwoName{
+  width: 30vw;
+  margin-top: 10vh;
+}
+.rightCardTwoNumber{
+  margin-top: 10vh;
+}
+.righttwo{
+  display: flex;
+}
+.rightCardNumber{
+  font-weight: 700;
+  color: grey;
+}
+.fitnessadvertisement{
+  height: 50vw;
+}
+/* .rightOne{
+  display: flex;
+} */
+/* .imagecontainer{
+  width: 20vw;
+} */
+/* .Homecontainer1right{
+  height: 50vh;
+} */
+/* responsiveness on 
+
+/* hamburgermenu */
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+}
+
+
+.morefromsirentext{
+  width: 15vw;
+  color: orange;
+}
+.Morearticles{
+  display: flex;
+  margin-top: 5vh;
+}
+.hamburgermenu{
+  margin-top: 2vh;
+  float: right;
+  width: 8vw;
+  display: none;
+  cursor: pointer;
+}
+.hamburgermenucompo{
+  width: 80vw;
+}
+.Hamburgermenucompo div{
+  width: 80vw;
+}
+.Navbar2{
+  display: none;
+}
+.Navbar {
+display: flex;
+ 
+}
+.Navbar a{
+  color: #000000;
+  margin-top: 4vh ;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 10px grey;
+  
+}
+
+.Navbar a:hover{
+  color: rebeccapurple;
+}
+.foodadvertisement{
+  height: 83vw;
+}
+/* mobile/........................................................................................ */ 
+
+
+@media (max-width:1200px){
+  .Navbarnone{
+    background-color: rgb(238, 238, 238);
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 3vh;
+  }
+  .NavTools a{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #376c6e;
+  }
+  .NavTools{
+    margin-top: 2vh;
+  }
+  .Navbar2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .Navbar{
+    display: none;
+  }
+  .morefromsirentext{
+    width: 40vw;
+  }
+  .dynamicmoreimages{
+    margin-left: 5vw;
+    margin-top: 2vh;
+    width: 80vw;
+  }
+  .Morearticles{
+    display: flex;
+    flex-direction: column;
+  }
+  /* .menuIcon {
+    display: block;
+    width: 10vw;
+    margin: 0vw 3vw;
+  } */
+.hamburgermenu{
+    display: block;
+    font-size: 1.5rem;
+  }
+  /* .Hamburgermenu{
+    display: block;
+    font-size: 10vw;
+    width: 100%;
+    height: fit-content;
+    letter-spacing: 0.2vw;
+    position: fixed;
+    right: 0vw;
+    top: 2vw;
+    text-align: center;
+    background-color: rgb(212, 212, 212)
+  } */
+  /* .Hamburgermenu div {
+    border-bottom: 1px solid white;
+    width: fit-content;
+    padding: 2vw 0vw;
+    margin: 0vw auto;
+  } */
+
+  .Hamburgermenu div a {
+    color: rgb(19, 18, 18);
+    font-size: 2rem;
+  }
+  .Movieimages {
+    width: 33vw;
+    height: 25vh;
+    margin-top: 5vh;
+}
+.Movietext {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding-right: 4vw;
+}
+    /* .Navbar {
+      display: flex;
+    } */
+    /* .hamburger {
+      display: none;
+    }
+   */
+  .LatestStories h3{
+  width: 55vw;
+}
+  .textt{
+    margin: 2vw;
+    margin-top: 8vh;
+  }
+  .Articlelatest{
+    
+    width: 80vw;
+   
+  }
+  .toparticle{
+    display: flex;
+    width: 80vw;
+}
+  
+  .toparticle img{
+    width: 40vw;
+    margin-top: 5vh;
+  }
+  .Toppost{
+    width: 80vw;
+  }
+  .Homeadvertise{
+    width: 80vw;
+  }
+  .latestarticleright{
+    width: 80vw;
+  }
+  .Articletext{
+    width: 60vw;
+    margin-top: 2vh;
+  }
+  .latestimagedown{
+    width: 80vw;
+  }
+  .latestarticleleft{
+    width: 80vw;
+  }
+  .advertisementtechnology {
+    width: 80vw;
+    height: 25vw;
+    margin-top: 5vh;
+    margin-left: 9vw;
+}
+.advertisement {
+  margin-top: 5vh;
+  width: 80vw;
+  height: 30vw;
+  margin-left: 8vw;
+  
+}
+  .Homecontainer1 img{
+      width: 100%;
+      height: 30vh;
+      display: flex;
+      box-sizing: border-box;
+      margin-top: 0vh;
+      margin-left: 4vw;
+  }
+  .Homecontainer1left{
+    width: 100%;
+  }
+ .Homecontainer2{
+  margin-left: 0;
+ }
+ .Homecontainer2 h3{
+  margin-bottom: 2vh;
+  margin-top: 5vh;
+  margin-left: 5vw;
+ }
+
+  .Articleimages{
+    margin-top: 5vh;
+    min-width: 60vw;
+    margin: 1.5vw;
+  }
+  #latesth3{
+    font-size: 1.7rem;
+    width: 50vw;
+  }
+  .rightCardOneImg {
+    margin-top: 4vh;
+}
+.dynamicontentheading {
+
+  font-size: 1rem;
+}
+.Gobackbutton {
+  width: 22vw;
+  height: 10vw;
+}
+  a{
+    font-size: 0.8rem;
+  }
+  .bollywoodContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .left {
+    width: 80vw;
+}
+.imagecontainer img {
+  width: 50vw;
+  min-height: 22vh;
+  
+}
+.cardContent {
+  margin-top: 16vw;
+  margin-left: 5vw;
+}
+.leftContent p{
+  font-size: 0.8rem;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 0vw;
+  width: 80vw;
+}
+.rightCardOne img {
+  width: 50vw;
+}
+.rightcardTwoImg {
+  width: 40vw;
+  
+}
+.leftNav {
+  gap: 0vw;  
+  font-size: 15px;
+  
+}
+.mobileno{
+  font-size: 0.5rem;
+}
+.Email{
+  font-size: 0.5rem;
+}
+.footer-content{
+  font-size: 0.5rem;
+}
+.aboutfooter{
+  font-size: 0.5rem;
+    height: 0vh;
+    margin-bottom: 2vh;
+}
+.leftNav{
+  display: flex;
+  /* flex-direction: column; */
+}
+.leftNav h5{
+  margin:0px;
+}.icons p{
+  font-size: 0.8rem;
+  font-weight: bold;
+
+}
+.rightCardOne {
+  
+  justify-content: center;
+  align-items: center;
+}
+.rightContent {
+  margin-left: 5vw;
+  width: 70vw;
+}
+
+/* homepage */
+.Homecontainer1left{
+  width: 80vw;
+}
+
+.hometopimage.style{
+  width: 80vw;
+  height: 30vh;
+}
+.Articleimages{
+  width: 40vw;
+}
+.Homecontainer1right{
+  display: none;
+}
+.latestcontainer{
+  flex-direction: column;
+  margin-left: 12vw;
+}
+.Homecontainer2 h3{
+  width: 42vw;
+}
+.latest h3{
+  width:57vw
+}
+.Homecontainer3{
+  display: flex;
+  flex-direction: column;
+}
+#latesth3{
+  width: 50vw;
+}
+}
